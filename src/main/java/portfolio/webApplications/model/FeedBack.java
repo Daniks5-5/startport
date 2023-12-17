@@ -16,10 +16,10 @@ import java.math.BigInteger;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name="feedback form")
+@Table(name="feedback_main")
 public class FeedBack {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
 
     private Long id;
     private String name;
