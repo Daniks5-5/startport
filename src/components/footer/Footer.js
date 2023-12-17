@@ -3,7 +3,7 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id="feedback">
       <section className="form-block">
         <h2>Let’s talk!</h2>
         <Form></Form>

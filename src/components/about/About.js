@@ -1,7 +1,7 @@
 import "./about.css";
 const About = () => {
   return (
-    <section class="about">
+    <section class="about" id="about">
       <h2>about us</h2>
       <p>
         WE make web - applications for your business. It’s increases your sales
