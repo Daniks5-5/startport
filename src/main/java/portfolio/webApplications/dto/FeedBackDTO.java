@@ -6,7 +6,7 @@ import java.math.BigInteger;
 
 //класс для передачи данных запросов
 @Data
-public class FeedBackDTO {
+public class FeedBackDTO extends MailParams {
 
     private Long id;
     private String name;
