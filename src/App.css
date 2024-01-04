@@ -21,3 +21,57 @@
     --white-gradient: linear-gradient(271deg, #FFF -3.31%, rgba(255, 255, 255, 0.75) 87.9%, rgba(255, 255, 255, 0.00) 141.42%);
     --light-grey: #EBEBEB;
 }
+
+@font-face {
+    font-family: 'PT Serif';
+    src: local('PTSerif-Regular'),
+        url('./lib/fonts/PTSerif-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Serif';
+    src: local('PTSerif-Italic'),
+        url('./lib/fonts/PTSerif-Italic.ttf') format('ttf');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Literaturnaya';
+    src: local('Literaturnaya Regular'), local('Literaturnaya-Regular'),
+        url('./lib/fonts/LiteraturnayaRegular.woff2') format('woff2'),
+        url('./lib/fonts/LiteraturnayaRegular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AGPalatial';
+    src: local('AGPalatial'),
+        url('./lib/fonts/AGPalatial.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BOWLER';
+    src: local('BOWLER'),
+        url('./lib/fonts/BOWLER.otf') format('otf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@media(max-width: 1000px) {
+    :root {
+        font-size: 9px;
+    }
+}
+
+@media(max-width: 768px) {
+    :root {
+        font-size: 8px;
+    }
+}

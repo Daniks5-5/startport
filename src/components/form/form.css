@@ -72,7 +72,8 @@
     background-color: var(--green-blue);
     border-radius: 10px;
     color: var(--light-grey);
-    width: 30%;
+    /* width: 30%; */
+    width: 360px;
     height: 69px;
     text-align: center;
     font-family: Literaturnaya;
@@ -102,7 +103,8 @@
     border: 1px solid rgba(255, 255, 255, 0.56);
     background: var(--black);
     height: 57px;
-    width: 40%;
+    /* width: 40%; */
+    width: 516px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -128,4 +130,10 @@
     background: url(../../img/free-icon-email.webp) no-repeat;
     width: 44px;
     height: 44px;
+}
+
+@media (max-width: 1000px) {
+    .feedback-email-block {
+        width: 370px;
+    }
 }

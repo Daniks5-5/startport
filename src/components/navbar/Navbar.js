@@ -5,16 +5,16 @@ const Navbar = () => {
     <nav className="navigation">
       <ul>
         <li>
-          <a href="#header">contacts</a>
+          <a href="#skills">УСЛУГИ</a>
         </li>
         <li>
-          <a href="#about">about us</a>
+          <a href="#header">КОНТАКТЫ</a>
         </li>
         <li>
-          <a href="#skills">skills</a>
+          <a href="#about">О НАС</a>
         </li>
         <li>
-          <a href="#feedback">feedback</a>
+          <a href="#feedback">НАПИСАТЬ НАМ</a>
         </li>
       </ul>
     </nav>
