@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
+    min-height: 70vh;
     color: var(--white);
     text-align: center;
     background-color: var(--black);
@@ -16,23 +16,31 @@
     content: "";
     position: absolute;
     background: #000;
-    filter: blur(5px);
-    top: -5px;
+    filter: blur(8px);
+    top: -29px;
     left: 0;
     width: 100%;
-    height: 25px;
+    height: 40px;
     z-index: 100;
 }
 
 .about h2 {
     font-family: BOWLER;
     font-size: 9.6rem;
-    margin-bottom: 10%;
+    padding-top: 1%;
+    margin-bottom: 5%;
 }
 
 .about p {
-    width: 70%;
-    font-family: Anchorion;
-    font-size: 4.8rem;
+    width: 65%;
+    font-family: PT-Serif;
+    font-size: 4.0rem;
     align-self: center;
+}
+
+.about-line {
+    width: 60%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.80);
+    margin: 6% auto 0 auto;
 }

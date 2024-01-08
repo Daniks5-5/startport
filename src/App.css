@@ -20,10 +20,12 @@
     --grey: #D9D9D9;
     --white-gradient: linear-gradient(271deg, #FFF -3.31%, rgba(255, 255, 255, 0.75) 87.9%, rgba(255, 255, 255, 0.00) 141.42%);
     --light-grey: #EBEBEB;
+    --light-white-gradient: linear-gradient(272deg, rgba(255, 255, 255, 0.71) -78.32%, rgba(255, 255, 255, 0.00) -78.3%, #FFF 51%, rgba(255, 255, 255, 0.00) 180.23%, rgba(255, 255, 255, 0.00) 180.23%);
+
 }
 
 @font-face {
-    font-family: 'PT Serif';
+    font-family: 'PT-Serif';
     src: local('PTSerif-Regular'),
         url('./lib/fonts/PTSerif-Regular.ttf') format('ttf');
     font-weight: 400;
@@ -62,7 +64,6 @@
     font-weight: 400;
     font-style: normal;
 }
-
 
 @media(max-width: 1000px) {
     :root {

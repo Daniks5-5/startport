@@ -1,4 +1,3 @@
-// import "../../app.css";
 import "./skills.css";
 
 const Skills = () => {
@@ -6,7 +5,7 @@ const Skills = () => {
     <section className="skills" id="skills">
       <div className="skills-font"></div>
       <div className="skills-block">
-        <h2>Our skills</h2>
+        <h2>наши навыки</h2>
         <ul className="skills-list">
           <li>Java 17+</li>
           <li>Spring Boot 2+</li>

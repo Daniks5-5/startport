@@ -2,11 +2,15 @@ import "./about.css";
 const About = () => {
   return (
     <section class="about" id="about">
-      <h2>about us</h2>
+      <h2>о нас</h2>
       <p>
-        WE make web - applications for your business. It’s increases your sales
-        and business getting stronger and bigger, better what was .
+        Мы предлагаем индивидуальное решение вашей задачи. При разработке
+        веб-приложений мы создаём качественный и привлекательный продукт с
+        учетом требований заказчика. Особое внимание уделяется удобству
+        использования, которое обеспечивает комфорт и исключительно
+        положительные впечатления от работы с веб-приложениями
       </p>
+      <hr className="about-line" />
     </section>
   );
 };
