@@ -7,23 +7,11 @@
     width: 100%;
     background-color: var(--black);
     color: var(--white);
-    font-family: Esquina Rounded;
+    font-family: PT;
     font-size: 4.0rem;
     font-style: italic;
     font-weight: 500;
     line-height: normal;
-}
-
-.skills-font {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(53, 65, 71, 0.36);
-    filter: blur(100px);
-    z-index: 3;
 }
 
 .skills-block {
@@ -37,22 +25,50 @@
 }
 
 .skills-block h2 {
-    font-family: Anchorion;
-    font-size: 12.8rem;
+    font-family: BOWLER;
+    font-style: normal;
+    font-size: 6.4rem;
     text-align: left;
     text-decoration: uppercase;
-    margin-bottom: 84px;
+    margin-bottom: 126px;
 }
 
 .skills-list {
     column-count: 2;
     padding-left: 40px;
+    list-style: none;
+}
+
+.skills-list li:first-child,
+.skills-list li:nth-child(4),
+.skills-list li:nth-child(6),
+.skills-list li:nth-child(9) {
+    position: relative;
+}
+
+.skills-list li:first-child::after,
+.skills-list li:nth-child(4)::after,
+.skills-list li:nth-child(6)::after,
+.skills-list li:nth-child(9)::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 220px;
+    height: 1px;
+    background-color: white;
+    /* border-bottom: 1px solid white; */
+}
+
+.skills-list li:nth-child(6)::after {
+    width: 466px;
 }
 
 .skills-list li {
     margin-bottom: 45px;
+    padding-bottom: 13px;
 }
 
-.skills-list li::marker {
+/* .skills-list li::marker {
     color: #2129EE;
-}
+} */

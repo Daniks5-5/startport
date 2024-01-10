@@ -16,7 +16,7 @@
 }
 
 .feedback-form {
-    width: 70%;
+    width: 65%;
     min-height: 50%;
     border-radius: 46px;
     border: 1px solid rgba(255, 255, 255, 0.56);
@@ -25,16 +25,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2%;
-}
-
-.feedback-form h3 {
-    color: var(--light-grey);
-    text-align: center;
-    font-family: Anchorion;
-    font-size: 4.0rem;
-    margin-bottom: 23px;
-    width: 80%;
+    padding: 4% 2% 2% 2%;
 }
 
 .feedback-inputs {
@@ -46,10 +37,10 @@
 .feedback-inputs input {
     border-radius: 32.5px;
     background: rgba(143, 143, 143, 0.92);
-    height: 77px;
+    height: 70px;
     color: var(--light-black);
-    font-family: Literaturnaya;
-    font-size: 2.6rem;
+    font-family: PT-Serif;
+    font-size: 2.343rem;
     padding: 1% 1% 1% 1%;
     outline: none;
     border: none;
@@ -76,8 +67,8 @@
     width: 360px;
     height: 69px;
     text-align: center;
-    font-family: Literaturnaya;
-    font-size: 2.6rem;
+    font-family: PT-Serif;
+    font-size: 2.343rem;
     border: none;
     cursor: pointer;
     margin-bottom: 3%;
@@ -93,8 +84,8 @@
 .feedback-email h4 {
     color: var(--light-grey);
     text-align: center;
-    font-family: Anchorion;
-    font-size: 4.0rem;
+    font-family: PT-Serif;
+    font-size: 3.6rem;
     margin-bottom: 2%;
 }
 
@@ -102,9 +93,9 @@
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.56);
     background: var(--black);
-    height: 57px;
+    height: 51px;
     /* width: 40%; */
-    width: 516px;
+    width: 370px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -122,8 +113,8 @@
 .feedback-email-block p {
     color: var(--white);
     text-align: center;
-    font-family: Literaturnaya;
-    font-size: 2.6rem;
+    font-family: PT-Serif;
+    font-size: 2.343rem;
 }
 
 .feedback-email-block i {

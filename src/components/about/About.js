@@ -1,7 +1,7 @@
 import "./about.css";
 const About = () => {
   return (
-    <section class="about" id="about">
+    <section className="about" id="about">
       <h2>о нас</h2>
       <p>
         Мы предлагаем индивидуальное решение вашей задачи. При разработке

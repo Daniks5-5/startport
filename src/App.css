@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
     scroll-behavior: auto;
@@ -33,7 +32,7 @@
 }
 
 @font-face {
-    font-family: 'PT Serif';
+    font-family: 'PT';
     src: local('PTSerif-Italic'),
         url('./lib/fonts/PTSerif-Italic.ttf') format('ttf');
     font-weight: 400;

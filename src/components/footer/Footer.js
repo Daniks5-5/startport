@@ -4,11 +4,8 @@ import "./footer.css";
 const Footer = () => {
   return (
     <footer className="footer" id="feedback">
-      <section className="form-block">
-        <h2>Let’s talk!</h2>
-        <Form></Form>
-      </section>
-      <section class="footer-block">
+      <Form></Form>
+      <section className="footer-block">
         <p>&copy; 2023, Morin Nikita and Danil</p>
       </section>
     </footer>
